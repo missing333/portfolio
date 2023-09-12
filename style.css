@@ -1,3 +1,11 @@
+.gradient-background{
+	background: linear-gradient(-45deg, royalblue, navy, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	
+}
+
+
 body{
     background-color: rgb(248, 249, 250);
     display: flex;
@@ -177,4 +185,16 @@ skill{
 footer{
     margin: 10px;
     margin-top: 2em;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
