@@ -84,6 +84,9 @@ overview{
 
 
 
+#portfolio{
+    max-width: 70vw;
+}
 
 
 
@@ -94,7 +97,7 @@ overview{
     border-radius: 20px;
     margin: 10px;
     height: max-content;
-    min-width: 260px;
+    min-width: 270px;
 }
 
 .portCard:hover{
