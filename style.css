@@ -2,15 +2,16 @@ body{
     background-color: rgb(248, 249, 250);
 }
 
-nav a{
-    color: white;
+nav a:hover{
+    border: 1px solid royalblue;
+    animation: ease-in-out 200ms;
 }
 
 hero{
     color: white;
 }
 
-hero img{
+#hero img{
     border-radius: 50%;
 }
 
@@ -80,6 +81,7 @@ overview{
 
 .accomp{
     flex-wrap: wrap;
+    max-width: 1500px;
 }
 
 .accomp > div{
@@ -106,6 +108,14 @@ skill{
     padding: 5px;
 }
 
-#Education{
 
+#contact div{
+    align-items: center;
+    margin: 20em 0px;
+}
+
+
+footer{
+    margin: 10px;
+    margin-top: 2em;
 }
