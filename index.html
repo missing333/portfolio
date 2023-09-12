@@ -1,26 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Marc's Portfolio</title>
-    </head>
-    <body>
-        <h1>J. Marc Missildine's Portfolio</h1>
-        <h2>Web Dev & Quality Assurance</h2>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <!--NAVIGATION-->
+    <nav>
+        <div class="container">
+            <header class="d-flex justify-content-center py-3">
+              <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="./public/resume.html" class="nav-link">Resume</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+              </ul>
+            </header>
+          </div>
+    </nav>
 
-        <hr>
 
-        <h2><a href="./public/poster.html">Poster Project</a></h2>
-        <img src="./assets/images/poster.png" alt="poster project" width="400"/>
+    <!--HERO-->
+    <hero class="mainColor">
+        <div class="px-4 py-5 my-5 text-center">
+            <h1 class="display-5 fw-bold">J. Marc Missildine</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-5">Software Quality Assurance Engineer</p>
+                <img class="mx-auto mb-4" src="./Assets/Images/Marc Profile 2crop.jpg" alt="profile picture" width="300" height="300">
+            </div>
+        </div>
+    </hero>
 
-        <h2><a href="./public/tindog.html">Tinder Dog Project</a></h2>
-        <img src="./assets/images/dog-app.png" alt="movie project" width="400"/>
 
-        <h3>
-            <a href="./public/resume.html">Resume</a>
-            <a href="./public/contact.html">Contact</a>
-        </h3>
+    <!--PORTFOLIO-->
+    <portfolio id="portfolio">
+        <div class="album py-5 bg-body-tertiary">
+            <div class="container">
+        
+              <div class="row row-cols-1 row-cols-2 g-2">
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                    <div class="card-body">
+                      <h2>MissileLauncher</h2>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
 
-    </body>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                    <div class="card-body">
+                        <h2>VirtueGrow</h2>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                    <div class="card-body">
+                        <h2>Flying J</h2>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                    <div class="card-body">
+                        <h2>Calculator</h2>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+    </portfolio>
+
+
+    <!--RESUME-->
+    <resume id="resume">
+
+    </resume>
+
+
+    <!--CONTACT-->
+    <contact id="contact">
+
+    </contact>
+
+
+    <!--FOOTER-->
+    <footer>
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+              <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                  <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-body-secondary">© J. Marc Missildine. All rights reserved.</span>
+              </div>
+          
+              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-body-primary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+                <li class="ms-3"><a class="text-body-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+              </ul>
+            </footer>
+          </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
 </html>
