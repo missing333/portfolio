@@ -2,10 +2,17 @@ body{
     background-color: rgb(248, 249, 250);
 }
 
+a{
+    text-decoration: none;
+}
+
+
 nav a:hover{
     border: 1px solid royalblue;
-    animation: ease-in-out 200ms;
+    margin: -1px;
 }
+
+
 
 hero{
     color: white;
@@ -13,6 +20,7 @@ hero{
 
 #hero img{
     border-radius: 50%;
+    box-shadow: darkblue 0 0 50px;
 }
 
 .text-body-secondary {
@@ -34,7 +42,7 @@ h1{
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 900;
-    font-size: 4em;
+    font-size: 6em;
 }
 
 h2{
@@ -68,6 +76,29 @@ overview{
     width: 50px;
     padding: 10px;
 }
+
+
+
+
+.portCard{
+    transition: all .2s ease-in-out;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 10px;
+    height: max-content;
+    min-width: 260px;
+}
+
+.portCard:hover{
+    transform: scale(1.03);
+}
+
+.portCard img{
+}
+
+
+
+
 
 #Accomplishments p{
     max-width: 390px;
@@ -111,7 +142,7 @@ skill{
 
 #contact div{
     align-items: center;
-    margin: 20em 0px;
+    margin: 20em 0px 25em 0px;
 }
 
 
